@@ -32,3 +32,18 @@
 {
   margin-top: 10%;
 }
+
+.copyright
+{
+  background-color: rgba(72,67,71,1);
+  color:rgba(222,182,140,1);
+  text-align: center;
+  height: 10%;
+  
+}
+footer
+{
+  position:absolute; 
+  left: 0; 
+  right: 0; 
+}
