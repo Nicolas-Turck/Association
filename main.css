@@ -15,7 +15,17 @@
   .mp3
   {
     background-color: rgba(222,182,140,1);
-  }    
+  } 
+  .line
+  {
+    
+    color: rgba(222,182,140,1)
+  }
+  .hr-jumbotron
+  {
+    color: rgba(222,182,140,1)
+  }
+     
   /* ==========================================================================
                                   Mobile 
      ========================================================================== */
@@ -37,7 +47,29 @@
     margin-right: 10%;
     margin-left: 10%;  
 }
-
+.definition-card
+{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;  
+}
+.card1
+{
+  justify-content: flex-end;
+  text-align: center;
+  border-color: rgba(222,182,140,1);  
+  background-color: rgba(72,67,71,1);
+  
+}
+.card2
+{
+  justify-content: flex-end;
+  margin-top: 10px;
+  text-align: center;
+  border-color: rgba(222,182,140,1);  
+  background-color: rgba(72,67,71,1);
+ 
+}
 .contact
 {
   margin-top: 10%;
@@ -51,6 +83,11 @@ h5 {
 .card-text {
     color: rgba(222,182,140,1);
 }
+.telmail
+  {
+      style:none;
+      color: rgba(222,182,140,1);
+  }
 .copyright
 {
   background-color: rgba(72,67,71,1);
@@ -64,4 +101,29 @@ footer
   position:absolute; 
   left: 0; 
   right: 0; 
+}
+
+  /* ==========================================================================
+                                  DESKTOP
+     ========================================================================== */
+
+.definition-card
+{
+  display: flex;
+  justify-content: space-around;
+  /* flex-wrap: wrap;  */
+}
+.card1
+{
+  
+  float: right;
+  text-align: center;
+  
+  
+}
+.card2
+{
+  float: left;
+  text-align: center;
+  
 }
