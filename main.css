@@ -24,7 +24,14 @@
 {
     margin-top: 5%;
 } 
-
+.display-4
+{
+  color: white;
+}
+.lead
+{
+ color: white;
+}
  .centerpage
 {
     margin-right: 10%;
@@ -35,7 +42,15 @@
 {
   margin-top: 10%;
 }
-
+h5 {
+    color: rgba(222,182,140,1);
+}
+.card-title {
+    margin-bottom: .5rem;
+}
+.card-text {
+    color: rgba(222,182,140,1);
+}
 .copyright
 {
   background-color: rgba(72,67,71,1);
