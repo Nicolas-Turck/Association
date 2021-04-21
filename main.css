@@ -47,11 +47,12 @@
     margin-right: 10%;
     margin-left: 10%;  
 }
-.definition-card
+.tarif-card
 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;  
+  margin-top: 10px;
   
 }
 .card1
@@ -97,6 +98,10 @@ h5 {
   height: 10%;
   
 }
+.card-text1
+{
+    visibility: hidden;
+}
 footer
 {
   position:absolute; 
@@ -107,8 +112,10 @@ footer
   /* ==========================================================================
                                   DESKTOP
      ========================================================================== */
+@media(min-width: 1001px)
+{
 
-.definition-card
+.tarif-card
 {
   display: flex;
   justify-content: space-around;
@@ -127,4 +134,14 @@ footer
   float: left;
   text-align: center;
   
+}
+.center-img
+{
+    display: block;
+}
+.card-text1
+{
+    visibility: visible;
+    color: rgba(222,182,140,1);
+}
 }
